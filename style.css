@@ -1,0 +1,60 @@
+
+.form1{
+    width: 661px;
+    height: 763px;
+    background-color: #C4C4C4;
+
+}
+#searchInput{
+    width: 500px;
+    height: 61px;
+ 
+}
+.container {
+    
+    position: relative;
+    top: 60px;
+    left: 80px;
+    
+}
+img{
+    width: 30px;
+}
+.autocomplete-item {
+    display: flex;
+    width: 500px;
+    height: 61px;
+    cursor: pointer;
+    margin: 5px;
+    background: white;
+    border: 1px solid;
+    align-content: flex-start;
+    align-items: center;
+}
+
+ul {
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    top: 450px;
+}
+
+li{ 
+    display: flex;
+    width: 500px;
+    height: 61px;
+    cursor: pointer;
+    margin: 5px;
+    background: #E27BEB;
+    border: 1px solid;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    margin-left: 10px;
+    border: none;
+    background: #E27BEB;
+    
+}
